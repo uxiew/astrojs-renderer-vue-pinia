@@ -1,7 +1,7 @@
 # astrojs-renderer-vue-pinia
 @astrojs/renderer-vue support pinia manage state
 
-source from: https://github.com/withastro/astro/tree/main/packages/renderers/renderer-vue
+source from: [@astrojs/renderer-vue](https://github.com/withastro/astro/tree/main/packages/renderers/renderer-vue)
 
 # @astrojs/renderer-vue
 

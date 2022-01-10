@@ -1,0 +1,29 @@
+{
+  "name": "@ver5/renderer-vue-pinia",
+  "version": "0.3.0",
+  "description": "Use Vue components within Astro",
+  "type": "module",
+  "author": "withastro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/withastro/astro.git",
+    "directory": "packages/renderers/renderer-vue"
+  },
+  "bugs": "https://github.com/withastro/astro/issues",
+  "homepage": "https://astro.build",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*",
+    "./client.js": "./client.js",
+    "./server.js": "./server.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^1.9.4",
+    "vue": "^3.2.22"
+  },
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0"
+  }
+}
